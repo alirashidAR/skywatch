@@ -18,8 +18,9 @@ export function ThreeDCardDemo() {
         <CardContainer className="inter-var mx-4">
           <CardBody className="Dispose bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
             <CardItem
+              as="p"
               translateZ="50"
-              className="text-xl font-bold text-neutral-600 dark:text-white"
+              className="text-xl font-bold text-neutral-600 dark:text-white text-center items-center w-full"
             >
               Make things float in air
             </CardItem>
@@ -46,8 +47,9 @@ export function ThreeDCardDemo() {
         <CardContainer className="inter-var mx-4">
           <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white w-auto sm:w-[30rem] h-auto rounded-xl p-6 border Dispose">
             <CardItem
+              as="p"
               translateZ="50"
-              className="text-xl font-bold text-neutral-600 dark:text-white"
+              className="text-xl font-bold text-neutral-600 dark:text-white text-center items-center w-full"
             >
               Second Card Title
             </CardItem>
