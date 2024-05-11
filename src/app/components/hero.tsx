@@ -20,9 +20,9 @@ export function HeroHighlightDemo() {
         }}
         className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto"
       >
-        Unleash the future of security and agriculture{" "}
-        <Highlight className="text-black dark:text-white">
-          with SkyWatch
+        Unleash the future of security and agriculture with{" "}
+        <Highlight className="text-black dark:text-white Android">
+          SkyWatch
         </Highlight>
       </motion.h1>
     </HeroHighlight>

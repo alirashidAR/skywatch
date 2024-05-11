@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { cn } from "../utils/cn";
 import Image from "next/image";
 
+
 type Card = {
   id: number;
   content: JSX.Element | React.ReactNode | string;
@@ -26,16 +27,18 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
   };
 
   return (
+    <div>
+      <h1 className="font-bold mb-8 text-center Dispose text-5xl">Achievements</h1>
     <div className="h-screen p-10 grid grid-cols-1 md:grid-cols-3  max-w-7xl mx-auto gap-4 relative">
       {cards.map((card, i) => (
-        <div key={i} className={cn(card.className, "")}>
+        <div key={i} className={cn(card.className, "border-white border-2 rounded-xl")}>
           <motion.div
             onClick={() => handleClick(card)}
             className={cn(
               card.className,
               "relative overflow-hidden",
               selected?.id === card.id
-                ? "rounded-lg cursor-pointer absolute inset-0 h-1/2 w-full md:w-1/2 m-auto z-50 flex justify-center items-center flex-wrap flex-col"
+                ? "rounded-lg cursor-pointer absolute inset-0 h-1/2 w-full md:w-1/2 m-auto z-50 flex justify-center items-center flex-wrap flex-col border-purple-500 border-2"
                 : lastSelected?.id === card.id
                 ? "z-40 bg-white rounded-xl h-full w-full"
                 : "bg-white rounded-xl h-full w-full"
@@ -55,6 +58,7 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
         )}
         animate={{ opacity: selected?.id ? 0.3 : 0 }}
       />
+    </div>
     </div>
   );
 };

@@ -5,6 +5,8 @@ import LayoutGridDemo from "./components/projects";
 import { HeroHighlightDemo } from "./components/hero";
 import { StickyScrollRevealDemo } from "./components/hacks";
 import {ThreeDCardDemo} from './components/products'
+import  NavbarTop  from "./components/navbartop";
+import Footer from "./components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,9 +23,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <NavbarTop/>
         <HeroHighlightDemo />
         <ThreeDCardDemo/>
         <LayoutGridDemo />
+        <Footer/>
       </body>
     </html>
   );

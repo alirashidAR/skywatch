@@ -38,6 +38,24 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #4CAF50;
+  background-color: #9c1aff;
   border-radius: 5px;
+}
+
+@font-face {
+  font-family: Android;
+  src: url('../app/fonts/android_7.ttf');
+}
+
+.Android {
+  font-family: Android;
+}
+
+@font-face {
+  font-family: Dispose;
+  src: url('../app/fonts/DisposableDroidBB.ttf');
+}
+
+.Dispose {
+  font-family: Dispose;
 }
