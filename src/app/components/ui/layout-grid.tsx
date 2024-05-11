@@ -28,7 +28,9 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
 
   return (
     <div>
-      <h1 className="font-bold mb-8 text-center Dispose text-5xl">Achievements</h1>
+      <div className="text-5xl min-w-24 justify-center items-center text-center">
+        <span className="font-bold p-2 text-center border-4 border-purple-400 Dispose rounded-lg">Achievements</span>
+      </div>
     <div className="h-screen p-10 grid grid-cols-1 md:grid-cols-3  max-w-7xl mx-auto gap-4 relative">
       {cards.map((card, i) => (
         <div key={i} className={cn(card.className, "border-white border-2 rounded-xl")}>

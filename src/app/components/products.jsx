@@ -10,11 +10,13 @@ export function ThreeDCardDemo() {
 
   return (
     <div className="mt-10">
-      <h1 className="font-bold mb-8 text-center Dispose text-5xl">Our Products</h1>
+      <div className="text-5xl min-w-24 justify-center items-center text-center">
+        <span className="font-bold p-2 text-center border-4 border-purple-400 Dispose rounded-lg">Products</span>
+      </div>
       <div className="flex justify-center max-md:flex-col">
         {/* First Card */}
         <CardContainer className="inter-var mx-4">
-          <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
+          <CardBody className="Dispose bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
             <CardItem
               translateZ="50"
               className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -26,14 +28,14 @@ export function ThreeDCardDemo() {
                 src={imageUrl}
                 height="1000"
                 width="1000"
-                className="md:h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl border-2 border-purple-400 "
+                className="md:h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl border-2 border-purple-400"
                 alt="thumbnail"
               />
             </CardItem>
             <CardItem
               as="p"
               translateZ="60"
-              className="text-neutral-500 text-sm max-w-md mt-10 dark:text-neutral-300 "
+              className="text-neutral-500 text-md max-w-md mt-10 dark:text-neutral-300"
             >
               Hover over this card to unleash the power of CSS perspective. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam cum tenetur, quo animi sunt molestiae culpa nemo eligendi ipsum adipisci autem repellendus neque deserunt vel natus provident vitae laboriosam illo.
             </CardItem>
@@ -42,7 +44,7 @@ export function ThreeDCardDemo() {
 
         {/* Second Card */}
         <CardContainer className="inter-var mx-4">
-          <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
+          <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white w-auto sm:w-[30rem] h-auto rounded-xl p-6 border Dispose">
             <CardItem
               translateZ="50"
               className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -61,7 +63,7 @@ export function ThreeDCardDemo() {
             <CardItem
               as="p"
               translateZ="60"
-              className="text-neutral-500 text-sm max-w-md dark:text-neutral-300 mt-10"
+              className="text-neutral-500 text-md max-w-md dark:text-neutral-300 mt-10"
             >
               Description of the second card goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tempore quasi at voluptatibus, enim suscipit assumenda reprehenderit obcaecati quis molestiae, ratione, consequatur accusamus aliquid. Laborum, saepe repudiandae? Ab, dolorem asperiores.
             </CardItem>
