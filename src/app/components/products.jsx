@@ -11,7 +11,7 @@ export function ThreeDCardDemo() {
   return (
     <div className="mt-10">
       <h1 className="font-bold mb-8 text-center Dispose text-5xl">Our Products</h1>
-      <div className="flex justify-center">
+      <div className="flex justify-center max-md:flex-col">
         {/* First Card */}
         <CardContainer className="inter-var mx-4">
           <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
@@ -26,7 +26,7 @@ export function ThreeDCardDemo() {
                 src={imageUrl}
                 height="1000"
                 width="1000"
-                className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl border-2 border-purple-400 "
+                className="md:h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl border-2 border-purple-400 "
                 alt="thumbnail"
               />
             </CardItem>

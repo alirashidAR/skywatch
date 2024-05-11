@@ -26,7 +26,7 @@ module.exports = {
       keyframes: {
         scroll: {
           to:{
-            transform: "translateY(-100%)",
+            transform: "translate(calc(-50% - 0.5rem))",
           },
         },
       }

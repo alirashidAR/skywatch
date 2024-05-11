@@ -7,6 +7,7 @@ import { StickyScrollRevealDemo } from "./components/hacks";
 import {ThreeDCardDemo} from './components/products'
 import  NavbarTop  from "./components/navbartop";
 import Footer from "./components/footer";
+import MovingCards from './components/infinite-cards'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <NavbarTop/>
         <HeroHighlightDemo />
+        <MovingCards/>
         <ThreeDCardDemo/>
         <LayoutGridDemo />
         <Footer/>

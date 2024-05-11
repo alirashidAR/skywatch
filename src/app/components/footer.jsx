@@ -4,16 +4,16 @@ const footer = () => {
   return (
   <div className='mx-5'>                                                
     <footer class="w-full py-14">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-6xl">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="max-w-3xl mx-auto">
-            <a href="https://pagedone.io/" class="flex justify-center Android">
+            <a href="https://pagedone.io/" class="flex justify-center Android md:text-6xl max-md:text-3xl">
                 SkyWatch
             </a>
                 <ul class="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
-                    <li><a href="#" class=" text-white hover:text-purple-400">Products</a></li>
-                    <li><a href="#" class=" text-white hover:text-purple-400">Resources</a></li>
-                    <li><a href="#" class=" text-white hover:text-purple-400">Blogs</a></li>
-                    <li><a href="#" class=" text-white hover:text-purple-400">Support</a></li>
+                    <li><a href="#" class=" text-white hover:text-purple-400 Dispose">Products</a></li>
+                    <li><a href="#" class=" text-white hover:text-purple-400 Dispose">Resources</a></li>
+                    <li><a href="#" class=" text-white hover:text-purple-400 Dispose">Blogs</a></li>
+                    <li><a href="#" class=" text-white hover:text-purple-400 Dispose">Support</a></li>
                 </ul>
                 <div class="flex space-x-10 justify-center items-center mb-14">
                     <a href="#" class="block  text-white transition-all duration-500 hover:text-indigo-600 ">
