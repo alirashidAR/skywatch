@@ -1,10 +1,14 @@
 "use client";
 import { motion } from "framer-motion";
 import { HeroHighlight, Highlight } from "./ui/hero-highlight";
+import Spline from '@splinetool/react-spline';
 
 export function HeroHighlightDemo() {
   return (
     <div className="h-screen">
+    <div className="md:absolute right-0 md:z-10 max-md:hidden w-full">
+    <Spline className="w-48"scene="https://prod.spline.design/2DlODdoJZ1d7uFHt/scene.splinecode" />
+    </div>
     <HeroHighlight>
       <motion.h1
         initial={{
@@ -21,12 +25,15 @@ export function HeroHighlightDemo() {
         }}
         className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto Dispose"
       >
-        Unleash the future of security and agriculture with{" "}
-        <Highlight className="text-black dark:text-white Android p-2">
+        <Highlight className="text-black dark:text-white Android p-4 text-3xl md:text-9xl">
           SkyWatch
         </Highlight>
       </motion.h1>
     </HeroHighlight>
+    <img src="https://i.ibb.co/56w95vh/2.png" alt="2" className="absolute w-80 top-12 right-20" />
+    <img src="https://i.ibb.co/sgBmFdn/3.png" alt="3" className="absolute w-96 top-44 right-24"/>
+    <img src="https://i.ibb.co/7RKLvcN/4.png" alt="4" className="absolute w-80 top-72 left-48"/>
+    <img src="https://i.ibb.co/KVswJR1/6.png" alt="6" className="absolute w-80 top-0 left-20"/>
     </div>
   );
 }

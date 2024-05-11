@@ -10,12 +10,14 @@ export function ThreeDCardDemo() {
 
   return (
     <div className="mt-10">
+      <img src="https://i.ibb.co/56w95vh/2.png" alt="2" className="absolute w-80 right-20 -z-10" />
+      <img src="https://i.ibb.co/sgBmFdn/3.png" alt="3" className="absolute  w-96 left-20 -z-10"/>
       <div className="text-5xl min-w-24 justify-center items-center text-center">
         <span className="font-bold p-2 text-center border-4 border-purple-400 Dispose rounded-lg">Products</span>
       </div>
       <div className="flex justify-center max-md:flex-col">
         {/* First Card */}
-        <CardContainer className="inter-var mx-4">
+        <CardContainer className="inter-var mx-4 max-md:w-3/4 max-md:text-sm">
           <CardBody className="Dispose bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
             <CardItem
               as="p"
@@ -42,9 +44,10 @@ export function ThreeDCardDemo() {
             </CardItem>
           </CardBody>
         </CardContainer>
-
+        <img src="https://i.ibb.co/sgBmFdn/3.png" alt="3" className="md:hidden absolute  w-96 right-20 -z-10"/>
+        <img src="https://i.ibb.co/56w95vh/2.png" alt="2" className="md:hidden absolute w-80 left-20 -z-10" />
         {/* Second Card */}
-        <CardContainer className="inter-var mx-4">
+        <CardContainer className="inter-var mx-4 max-md:w-3/4 max-md:text-sm">
           <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white w-auto sm:w-[30rem] h-auto rounded-xl p-6 border Dispose">
             <CardItem
               as="p"
