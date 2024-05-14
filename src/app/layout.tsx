@@ -4,10 +4,11 @@ import "./globals.css";
 import LayoutGridDemo from "./components/projects";
 import { HeroHighlightDemo } from "./components/hero";
 import { StickyScrollRevealDemo } from "./components/hacks";
-import {ThreeDCardDemo} from './components/products'
+import {ThreeDCardDemo} from './components/products';
 import  NavbarTop  from "./components/navbartop";
 import Footer from "./components/footer";
-import MovingCards from './components/infinite-cards'
+import MovingCards from './components/infinite-cards';
+import Timeline from './components/timeline.tsx';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +29,7 @@ export default function RootLayout({
         <HeroHighlightDemo />
         <MovingCards/>
         <ThreeDCardDemo/>
+        <Timeline/>
         <LayoutGridDemo />
         <Footer/>
       </body>
