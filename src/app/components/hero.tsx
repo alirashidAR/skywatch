@@ -31,9 +31,9 @@ export function HeroHighlightDemo() {
       </motion.h1>
     </HeroHighlight>
     <img src="https://i.ibb.co/56w95vh/2.png" alt="2" className="absolute max-md:w-40 w-80 max-md:top-36 top-12 max-md:right-10 right-20" />
-    <img src="https://i.ibb.co/sgBmFdn/3.png" alt="3" className="absolute max-md:w-40 w-96 max-md:top-80 top-64 max-md:right-12 right-24"/>
-    <img src="https://i.ibb.co/7RKLvcN/4.png" alt="4" className="absolute max-md:w-40 w-80 max-md:top-96 top-72 max-md:left-14 left-48"/>
-    <img src="https://i.ibb.co/KVswJR1/6.png" alt="6" className="absolute max-md:w-40 w-80 max-md:top-44 top-0 max-md:left-10 left-20"/>
+    <img src="https://i.ibb.co/sgBmFdn/3.png" alt="3" className="absolute max-md:w-40 w-96 max-md:top-80 top-64 max-md:right-4 right-24"/>
+    <img src="https://i.ibb.co/7RKLvcN/4.png" alt="4" className="absolute max-md:w-40 w-80 max-md:top-80 top-72 max-md:left-4 left-48"/>
+    <img src="https://i.ibb.co/KVswJR1/6.png" alt="6" className="absolute max-md:w-40 w-80 max-md:top-28 top-0 max-md:left-1 left-20"/>
     </div>
   );
 }
