@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import LayoutGridDemo from "./components/projects";
+import LayoutGridDemo from "./components/achievements";
 import { HeroHighlightDemo } from "./components/hero";
 import { StickyScrollRevealDemo } from "./components/hacks";
 import {ThreeDCardDemo} from './components/products'
 import  NavbarTop  from "./components/navbartop";
 import Footer from "./components/footer";
 import MovingCards from './components/infinite-cards'
+
 
 const inter = Inter({ subsets: ["latin"] });
 

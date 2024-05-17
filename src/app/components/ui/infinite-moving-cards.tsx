@@ -90,7 +90,7 @@ export const InfiniteMovingCards = ({
             className="md:max-w-full  max-md:w-64 relative rounded-2xl  border-b-0 flex-shrink-0 border-slate-700 md:w-[450px] "
             key={item.name}
           >
-              <img src={item.name} className="border-purple-400 border-2 md:w-96 md:h-96" />
+              <img src={item.name} className="border-purple-400 border-2 w-full md:h-72 object-contain" />
               <p className="text-white Dispose p-6 text-center md:text-5xl">{item.title}</p>
           </li>
         ))}

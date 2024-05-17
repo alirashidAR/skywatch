@@ -1,10 +1,10 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
-import { LayoutGrid } from "../components/ui/layout-grid";
+import { LayoutGrid } from "./ui/layout-grid";
 
  function LayoutGridDemo() {
   return (
-    <div className="h-full py-20 w-full">
+    <div className="h-full py-20 w-full" id="achievements">
       <LayoutGrid cards={cards} />
     </div>
   );

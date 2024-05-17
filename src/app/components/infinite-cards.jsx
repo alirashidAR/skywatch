@@ -5,7 +5,7 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
 function InfiniteMovingCardsDemo() {
   return (
-    <div className="pt-10">
+    <div className="pt-10" id="events">
     <div className="text-5xl min-w-24 justify-center items-center text-center pb-10">
         <span className="font-bold p-2 text-center border-4 border-purple-400 Dispose rounded-lg">Events</span>
     </div>
