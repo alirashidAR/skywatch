@@ -35,7 +35,7 @@ const testimonials = [
   },
   {
     quote: "All that we see or seem is but a dream within a dream.",
-    name:"https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name:"https://i.ibb.co/zFFyDgB/Whats-App-Image-2024-05-11-at-15-14-24-1.jpg" ,
     title: "A Dream Within a Dream",
   },
   {

@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export function ThreeDCardDemo() {
   // Define the image URL to be used for both cards
-  const imageUrl =
-    "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+  const imageUrl1 = "https://i.ibb.co/wRf2j5W/Whats-App-Image-2024-05-11-at-15-17-22-1.jpg"
+  const imageUrl2 = "https://i.ibb.co/qNczTjs/Whats-App-Image-2024-05-11-at-15-17-30-1.jpg"
 
   return (
     <div className="mt-10" id="products">
@@ -28,7 +28,7 @@ export function ThreeDCardDemo() {
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-10">
               <Image
-                src={imageUrl}
+                src={imageUrl1}
                 height="1000"
                 width="1000"
                 className="md:h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl border-2 border-purple-400"
@@ -56,10 +56,10 @@ export function ThreeDCardDemo() {
             </CardItem>
             <CardItem translateZ="100" className="w-full mt-10">
               <Image
-                src={imageUrl}
+                src={imageUrl2}
                 height="1000"
                 width="1000"
-                className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl border-2 border-purple-400"
+                className="h-60 w-full rounded-xl group-hover/card:shadow-xl border-2 border-purple-400"
                 alt="thumbnail"
               />
             </CardItem>

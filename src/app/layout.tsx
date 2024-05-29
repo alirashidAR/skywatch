@@ -8,7 +8,6 @@ import {ThreeDCardDemo} from './components/products';
 import  NavbarTop  from "./components/navbartop";
 import Footer from "./components/footer";
 import MovingCards from './components/infinite-cards';
-import Timeline from './components/timeline.tsx';
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -30,7 +29,6 @@ export default function RootLayout({
         <HeroHighlightDemo />
         <MovingCards/>
         <ThreeDCardDemo/>
-        <Timeline/>
         <LayoutGridDemo />
         <Footer/>
       </body>
